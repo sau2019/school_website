@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ERP Login Page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="plugins/css/bootstrap.min.css">
+    <link href="fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="fontawesome/css/brands.min.css" rel="stylesheet">
+    <link href="fontawesome/css/solid.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: url("slide/slide1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgba(239, 178, 95, 0.4);
+            background-blend-mode: overlay;
+        }
+        
+        .content_area {
+            padding: 0;
+            position: relative;
+            height: 100vh;
+        }
+        
+        .form-area {
+            position: relative;
+            margin-top: 10vh;
+            width: 400px;
+            background-color: brown;
+            border-radius: 20px;
+            box-shadow: 1px 1px 5px grey, 1px 1px 10px grey;
+            border: 2px solid burlywood;
+            padding: 20px;
+            color: white;
+            font-size: 14px;
+        }
+        
+        .icon {
+            padding: 10px;
+            color: gold;
+            height: 50px;
+            width: 50px;
+            background-color: black;
+            border-radius: 10px;
+            border: 2px solid gold;
+            padding: 10px;
+            margin-top: 5px;
+        }
+        
+        .input-group {
+            padding: 10px;
+            margin-top: 10px;
+        }
+        
+        .top-icon {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            padding: 15px;
+            color: aqua;
+            border: 3px solid gold;
+            background-color: black;
+            border-radius: 50%;
+            height: 80px;
+        }
+        
+        .input-area {
+            padding: 10px;
+            width: 100%;
+            border: 2px solid aqua;
+            background-color: burlywood;
+            border-radius: 10px;
+            color: black;
+            font-weight: 600;
+        }
+        
+        .input-area:focus {
+            background-color: burlywood;
+            border: 3px solid aqua;
+            color: white;
+            background-color: black;
+        }
+        
+        .btn-submit {
+            margin-top: 50px;
+            width: 50%;
+            padding: 10px;
+            font-size: 18px;
+            background-color: aqua;
+            border: 2px solid white;
+            color: black;
+            box-shadow: 1px 1px 1px white, 1px 1px 10px white;
+            border-radius: 10px;
+        }
+        
+        .btn-submit:hover {
+            border: 1px solid grey;
+            border-radius: 10px;
+            background-color: black;
+            box-shadow: 1px 1px 1px white, 1px 1px 1px white;
+            color: burlywood;
+        }
+        
+        #error {
+            visibility: hidden;
+        }
+    </style>
+    <script>
+        var flag = true;
+
+        function validate() {
+
+            var error = document.getElementById("error").innerHTML;
+            if (flag) {
+                flag = false;
+                document.getElementById("show_error").innerHTML = error;
+            }
+
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div class="content_area">
+        <center>
+
+            <form class=" form-group form-area" onsubmit="return validate();">
+                <i class="fas fa-user-check fa-5x top-icon"></i>
+                <table>
+                    <tr>
+                        <td>
+                            <i class="fas fa-user-alt fa-3x icon"></i>
+                        </td>
+                        <td>
+
+                            <div class="input-group">
+
+                                <input type="text" id="user_id" class="form-control input-area" />
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fas fa-lock fa-3x icon"></i>
+                        </td>
+                        <td>
+
+                            <div class="input-group">
+                                <input type="password" id="user_pass" class="form-control input-area" />
+                            </div>
+
+                        </td>
+                    </tr>
+                </table>
+                <div id="show_error">
+
+                </div>
+                <span id="error">
+                    Error: Invalid Username or Password
+                </span>
+
+                <center>
+                    <button class="btn btn-submit">Submit</button>
+                </center>
+
+
+
+            </form>
+        </center>
+
+
+    </div>
+
+
+    <script src="plugins/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="plugins/js/jquery.min.js" type="text/javascript"></script>
+    <script src="fontawesome/js/all.min.js" type="text/javascript"></script>
+    <script src="fontawesome/js/brands.min.js" type="text/javascript"></script>
+    <script src="fontawesome/js/solid.min.js" type="text/javascript"></script>
+</body>
+
+</html>

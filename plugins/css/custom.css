@@ -1,0 +1,390 @@
+            body {
+                position: relative;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            
+            a:hover {
+                cursor: pointer;
+            }
+            
+            .nav-ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                border-bottom: 5px solid #008080;
+                background-color: #004284;
+            }
+            
+            .nav-li {
+                float: left;
+            }
+            
+            .nav-li {
+                display: block;
+                color: white;
+                text-align: center;
+                font-size: 16px;
+                text-decoration: none;
+                padding: 12px 20px;
+                margin-left: 10px;
+                text-transform: uppercase;
+            }
+            
+            .nav-li:hover {
+                text-decoration: none;
+                color: white;
+                font-weight: 600;
+                font-size: 16px;
+                border: 1x solid #008080;
+                padding: 12px 20px;
+                background-color: #008080;
+                transition: all 0.2s ease-out;
+            }
+            
+            .school-logo {
+                padding: 10px;
+                left: 20px;
+                top: 20px;
+                height: 100px;
+                widows: 100px;
+                background: #DCB8B8;
+                position: relative;
+                border-radius: 5px;
+            }
+            
+            .school-name {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 35px;
+                text-align: center;
+                color: #004284;
+                font-weight: 600;
+                margin-top: -50px;
+                text-shadow: 1px 1px 1px grey;
+            }
+            
+            .school-main-text {
+                font-size: 40px;
+                color: teal;
+            }
+            
+            .header {
+                padding: 0;
+                position: relative;
+                height: 150px;
+                width: 100%;
+                border-top: 2px solid #004284;
+                border-bottom: 5px solid #004284;
+            }
+            
+            .header-right-area {
+                float: right;
+                right: 20px;
+                margin-top: -80px;
+            }
+            
+            .btn-custom {
+                margin-top: 10px;
+                background-color: #008080;
+                border-radius: 5px;
+                color: white;
+                box-shadow: 2px 1px 10px #DCB8B8, 0px 0px 5px #DCB8B8;
+            }
+            
+            .btn-custom:hover {
+                background-color: #004284;
+                box-shadow: 2px 2px 2px #DCB8B8;
+                transition: all 0.5 ease-out;
+                text-indent: 5px;
+            }
+            
+            .footer-area {
+                background-color: #004284;
+                padding: 50px;
+                overflow: hidden;
+            }
+            
+            .copyright-area {
+                background-color: #004993;
+                font-size: 14px;
+                font-weight: 500;
+                padding: 10px;
+                color: whitesmoke;
+            }
+            
+            .company-link {
+                color: grey;
+            }
+            
+            .company-link:hover {
+                text-decoration: none;
+                color: black;
+            }
+            
+            .fa-3x {
+                background-color: #004993;
+                border-radius: 10px;
+                color: #ECD7D7;
+                padding: 5px;
+                border: 1px solid grey;
+            }
+            
+            .fa-facebook-square:hover {
+                background-color: white;
+                color: blue;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+            }
+            
+            .fa-twitter:hover {
+                cursor: pointer;
+                background-color: white;
+                color: #007ACC;
+                padding: 2px;
+                transition: all 0.3s ease-in-out;
+            }
+            
+            .fa-instagram:hover {
+                background-color: white;
+                cursor: pointer;
+                padding: 2px;
+                transition: all 0.3s ease-in-out;
+                color: red;
+            }
+            
+            .contact-title {
+                font-size: 25px;
+                font-weight: 800;
+                text-align: start;
+                color: #ECD7D7;
+                padding: 5px;
+            }
+            
+            .footer-ul {
+                margin-top: 10px;
+                list-style-type: none;
+                padding: 20px 0px;
+            }
+            
+            .footer-li {
+                list-style-type: none;
+                margin-left: 10px;
+                padding: 5px;
+                color: #ECD7D7;
+                font-weight: 600;
+            }
+            
+            .footer-a {
+                color: #ECD7D7;
+                font-weight: 600;
+                font-size: 16px;
+            }
+            
+            .footer-a:hover {
+                text-decoration: none;
+                color: #D8ABAB;
+                font-weight: 600;
+                text-indent: 10px;
+                transition: all 0.5s ease-out;
+            }
+            
+            .our-goal {
+                font-size: 25px;
+                color: #ECD7D7;
+                padding: 30px 0px;
+                font-weight: 700;
+                width: 80%;
+                text-transform: uppercase;
+            }
+            
+            .main-area {
+                width: 100%;
+                height: 100%;
+                padding: 50px 0 50px 0;
+            }
+            
+            .image-area {
+                padding: 10px;
+                float: right;
+                height: 300px;
+                width: 400px;
+            }
+            
+            .image-area-left {
+                float: left;
+                padding: 10px;
+                height: 300px;
+                width: 400px;
+            }
+            
+            .body-image {
+                width: 100%;
+                height: 100%;
+            }
+            
+            .about-text {
+                padding: 10px;
+                font-size: 20px;
+            }
+            
+            .main-paragraph {
+                padding: 5px;
+                margin-top: 20px;
+                font-size: 16px;
+                color: #3B3B3B;
+                line-height: 1.5;
+                letter-spacing: normal;
+            }
+            
+            .about-title {
+                color: #4BA4D0;
+                font-size: 30px;
+                font-weight: 600;
+            }
+            
+            .about-school-name {
+                color: #004284;
+                font-weight: 800;
+            }
+            
+            .area-card {
+                margin-bottom: 20px;
+            }
+            
+            .col-back {
+                padding: 10px;
+                color: white;
+                border: 1px solid white;
+                background-color: #004284;
+            }
+            
+            .col-back:hover {
+                background-color: #004993;
+                opacity: 0.9;
+                box-shadow: 1px 1px 10px grey, 1px 1px 10px grey;
+                cursor: pointer;
+                border-radius: 20px;
+                zoom: 1;
+                padding: 5px;
+                transition: all 0.2s ease-out;
+            }
+            
+            .col-right {
+                border-right: 2px solid white;
+            }
+            
+            .card-title-text {
+                font-size: 24px;
+                color: #004284;
+                font-weight: 700;
+                padding: 5px;
+                position: relative;
+                margin-top: 50px;
+                background-color: white;
+                border-radius: 5px;
+            }
+            
+            .card-desc {
+                position: absolute;
+                padding: 5px;
+                margin-top: -80px;
+                align-content: center;
+                overflow: visible;
+                color: white;
+                text-align: center;
+                font-size: 18px;
+                display: none;
+                transition: all 0.2s ease-out;
+            }
+            
+            .col-back:hover .card-title-text {
+                visibility: hidden;
+            }
+            
+            .col-back:hover .card-desc {
+                display: block;
+            }
+            
+            .fa-5x {
+                margin-top: 20px;
+            }
+            
+            .image-desc {
+                position: relative;
+                margin-top: -70px;
+                background-color: #008080;
+                color: white;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 600;
+                padding: 5px;
+            }
+            
+            @media only screen and (max-width: 600px) {
+                .school-name {
+                    display: none;
+                }
+                .nav-ul {
+                    display: none;
+                }
+                .header-right-area {
+                    margin-top: 20px;
+                }
+                .nav-ul-mobile {
+                    display: inline-block;
+                    padding: 10px;
+                    background-color: #004284;
+                    width: 100%;
+                }
+            }
+            
+            @media only screen and (min-width: 600px) {
+                .nav-ul-mobile {
+                    display: none;
+                }
+                .show_dialog {
+                    display: none;
+                }
+            }
+            
+            .show_dialog {
+                padding: 0px;
+                background-color: #0052A4;
+                width: 100%;
+                position: fixed;
+                transition: all 0.5s ease-in-out;
+                display: -webkit-sticky;
+                top: 0;
+                -webkit-transform: translateY(-0%);
+                -ms-transform: translateY(-0%);
+                transform: translateY(-0%);
+            }
+            
+            .dialog-ul {
+                list-style-type: none;
+            }
+            
+            .dialog-a {
+                margin-top: 10px;
+                color: white;
+                font-size: 16px;
+                text-align: center;
+            }
+            
+            .dialog-li {
+                padding: 10px;
+                margin-top: 5px;
+                text-transform: uppercase;
+            }
+            
+            .dialog-a:hover {
+                color: white;
+                font-weight: 600;
+                font-size: 18px;
+                text-decoration: none;
+                transition: all 0.2s ease-out;
+            }
+            
+            .fa-window-close:hover {
+                color: red;
+            }
